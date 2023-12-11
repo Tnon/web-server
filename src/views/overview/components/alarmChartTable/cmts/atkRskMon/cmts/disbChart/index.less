@@ -1,0 +1,75 @@
+.box {
+  padding: 16px 16px 24px;
+
+  .harRbo {
+    position: relative;
+
+    &::after {
+      content: ' ';
+      width: 1px;
+      height: 343px;
+      background: #eee;
+      border-radius: 8px;
+      position: absolute;
+      top: 7px;
+      right: -16px;
+    }
+  }
+
+  .header {
+    font-size: @fz14;
+    font-weight: 600;
+    color: rgb(0 0 0 / 85%);
+    line-height: 24px;
+    margin-bottom: 16px;
+    padding-left: 8px;
+  }
+
+  .list {
+    padding: 0;
+
+    .listLi {
+      padding: 0 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 48px;
+      margin: 4px 0;
+      cursor: pointer;
+      transition: all 0.3s;
+
+      &:hover {
+        padding-right: 5px;
+      }
+
+      .badTitle {
+        display: flex;
+        align-items: center;
+        font-size: @fz12;
+        font-weight: 400;
+        color: rgb(0 0 0 / 85%);
+      }
+
+      .number {
+        font-size: @fz18;
+        font-weight: 600;
+      }
+
+      .atkNum {
+        color: @danger-color;
+      }
+
+      .riskNum {
+        color: @warn-color;
+      }
+
+      .safNum {
+        color: rgb(0 0 0 / 60%);
+      }
+    }
+  }
+
+  .righOP {
+    padding-left: 40px;
+  }
+}

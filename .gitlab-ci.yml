@@ -1,0 +1,16 @@
+stages:
+  - deploy
+deploy:
+  stage: deploy
+  tags:
+    - msvc
+  variables:
+    CI_DEBUG_TRACE: 'true'
+  before_script:
+    - yarn
+    - yarn build
+    - echo "begging to deploy"
+  when: manual
+  script:
+    - scp -r dist/* 172.20.3.135:/axdata/$CI_COMMIT_BRANCH
+    - echo "html deploy successfully!!!!!!"

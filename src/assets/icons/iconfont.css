@@ -1,0 +1,790 @@
+@font-face {
+  font-family: "axsj"; /* Project id 1529856 */
+  src: url('iconfont.eot?t=1697601715107'); /* IE9 */
+  src: url('iconfont.eot?t=1697601715107#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('iconfont.woff2?t=1697601715107') format('woff2'),
+       url('iconfont.woff?t=1697601715107') format('woff'),
+       url('iconfont.ttf?t=1697601715107') format('truetype'),
+       url('iconfont.svg?t=1697601715107#axsj') format('svg');
+}
+
+.axsj {
+  font-family: "axsj" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ax-zc-xinet:before {
+  content: "\e71a";
+}
+
+.ax-zc-api:before {
+  content: "\e71b";
+}
+
+.ax-zc-jsfile:before {
+  content: "\e71c";
+}
+
+.ax-wh-privileges:before {
+  content: "\e719";
+}
+
+.ax-icon_yinqing-RASP:before {
+  content: "\e715";
+}
+
+.ax-icon_yinqing-baseline:before {
+  content: "\e717";
+}
+
+.ax-icon_yinqing-riskdetection:before {
+  content: "\e718";
+}
+
+.ax-nav-zc-BaseAsset:before {
+  content: "\e70e";
+}
+
+.ax-message:before {
+  content: "\e688";
+}
+
+.ax-Email:before {
+  content: "\e716";
+}
+
+.ax-configure:before {
+  content: "\e687";
+}
+
+.ax-Download:before {
+  content: "\e714";
+}
+
+.ax-Forward:before {
+  content: "\e707";
+}
+
+.ax-Export:before {
+  content: "\e708";
+}
+
+.ax-Import:before {
+  content: "\e70a";
+}
+
+.ax-Upload:before {
+  content: "\e70b";
+}
+
+.ax-nav-cl-BaitFile:before {
+  content: "\e713";
+}
+
+.ax-nav-cl-VirtualPatch:before {
+  content: "\e711";
+}
+
+.ax-nav-cl-SecurityPatch:before {
+  content: "\e712";
+}
+
+.ax-Viewpoint:before {
+  content: "\e710";
+}
+
+.ax-nav-zc-AssetVulnerability:before {
+  content: "\e70d";
+}
+
+.ax-nav-zc-RiskAsset:before {
+  content: "\e70f";
+}
+
+.ax-close:before {
+  content: "\e673";
+}
+
+.ax-Filters:before {
+  content: "\e680";
+}
+
+.ax-Search:before {
+  content: "\e679";
+}
+
+.ax-Setting:before {
+  content: "\e70c";
+}
+
+.ax-authorization:before {
+  content: "\e689";
+}
+
+.ax-icon_yinqing-C-xunibudingguizeyinqing:before {
+  content: "\e705";
+}
+
+.ax-icon_yinqing-S-anquanbudingyinqing:before {
+  content: "\e706";
+}
+
+.ax-fx-weakpassword-app:before {
+  content: "\e702";
+}
+
+.ax-fx-weakpassword-os:before {
+  content: "\e704";
+}
+
+.ax-wh-changeOS:before {
+  content: "\e701";
+}
+
+.ax-changeOS:before {
+  content: "\e6ff";
+}
+
+.ax-cl-wjbh-protectfile:before {
+  content: "\e6f5";
+}
+
+.ax-cl-wjbh-monitorrules:before {
+  content: "\e6f8";
+}
+
+.ax-cl-wjbh-Monitorfile:before {
+  content: "\e6fa";
+}
+
+.ax-cl-wjbh-monitorhost:before {
+  content: "\e6fc";
+}
+
+.ax-Mnav-reinforce:before {
+  content: "\e6f4";
+}
+
+.ax-Mnav-policy:before {
+  content: "\e6a3";
+}
+
+.ax-Mnav-maintain-S:before {
+  content: "\e6f6";
+}
+
+.ax-Mnav-reinforce-S:before {
+  content: "\e6f7";
+}
+
+.ax-Mnav-journal:before {
+  content: "\e69f";
+}
+
+.ax-Mnav-policy-S:before {
+  content: "\e6f9";
+}
+
+.ax-Mnav-dashboard:before {
+  content: "\e6a9";
+}
+
+.ax-Mnav-journal-S:before {
+  content: "\e6fb";
+}
+
+.ax-Mnav-attack:before {
+  content: "\e6a0";
+}
+
+.ax-Mnav-risk-S:before {
+  content: "\e6fd";
+}
+
+.ax-Mnav-attack-S:before {
+  content: "\e6fe";
+}
+
+.ax-Mnav-property:before {
+  content: "\e6b3";
+}
+
+.ax-Mnav-dashboard-S:before {
+  content: "\e700";
+}
+
+.ax-Mnav-risk:before {
+  content: "\e6a4";
+}
+
+.ax-Mnav-maintain:before {
+  content: "\e6a1";
+}
+
+.ax-Mnav-property-S:before {
+  content: "\e703";
+}
+
+.ax-nav-cl-fileprotect:before {
+  content: "\e6f2";
+}
+
+.ax-nav-cl-baseline:before {
+  content: "\e6f3";
+}
+
+.ax-C-RASP:before {
+  content: "\e6f1";
+}
+
+.ax-wh-syslog:before {
+  content: "\e6c1";
+}
+
+.ax-nav-whitelist:before {
+  content: "\e6ed";
+}
+
+.ax-nav-blockinglist:before {
+  content: "\e6ee";
+}
+
+.ax-nav-assetspolicy:before {
+  content: "\e6ef";
+}
+
+.ax-nav-securitypolicy:before {
+  content: "\e6f0";
+}
+
+.ax-weakpassword:before {
+  content: "\e6d0";
+}
+
+.ax-applications:before {
+  content: "\e6cd";
+}
+
+.ax-icon_fengxian-loudong-neihe:before {
+  content: "\e6ea";
+}
+
+.ax-icon_fengxian-loudong-xitong:before {
+  content: "\e6eb";
+}
+
+.ax-icon_fengxian-loudong-Web:before {
+  content: "\e6ec";
+}
+
+.ax-zc-task:before {
+  content: "\e6e1";
+}
+
+.ax-zc-webserver:before {
+  content: "\e6e2";
+}
+
+.ax-zc-jarpackage:before {
+  content: "\e6e3";
+}
+
+.ax-zc-npmpackage:before {
+  content: "\e6e4";
+}
+
+.ax-zc-ospackage:before {
+  content: "\e6e5";
+}
+
+.ax-zc-pythonpackage:before {
+  content: "\e6e6";
+}
+
+.ax-zc-webframework:before {
+  content: "\e6e7";
+}
+
+.ax-zc-webside:before {
+  content: "\e6e8";
+}
+
+.ax-zc-webapplication:before {
+  content: "\e6e9";
+}
+
+.ax-reportemail:before {
+  content: "\e6df";
+}
+
+.ax-reportword:before {
+  content: "\e6e0";
+}
+
+.ax-securityadmin:before {
+  content: "\e6da";
+}
+
+.ax-vipadmin:before {
+  content: "\e6db";
+}
+
+.ax-oamadmin:before {
+  content: "\e6dc";
+}
+
+.ax-auditadmin:before {
+  content: "\e6dd";
+}
+
+.ax-osadmin:before {
+  content: "\e6de";
+}
+
+.ax-icon_weihu-yewuzu:before {
+  content: "\e6d9";
+}
+
+.ax-S-ACDR:before {
+  content: "\e6d8";
+}
+
+.ax-extend:before {
+  content: "\e6d7";
+}
+
+.ax-Protection:before {
+  content: "\e6d6";
+}
+
+.ax-installpackage:before {
+  content: "\e6cb";
+}
+
+.ax-vulnerability:before {
+  content: "\e6cc";
+}
+
+.ax-user:before {
+  content: "\e6ce";
+}
+
+.ax-sharefolder:before {
+  content: "\e6cf";
+}
+
+.ax-web:before {
+  content: "\e6d1";
+}
+
+.ax-port:before {
+  content: "\e6d2";
+}
+
+.ax-kernel:before {
+  content: "\e6d3";
+}
+
+.ax-environmentvariable:before {
+  content: "\e6d4";
+}
+
+.ax-runningservice:before {
+  content: "\e6d5";
+}
+
+.ax-processinjection:before {
+  content: "\e6ba";
+}
+
+.ax-n-nodeloading:before {
+  content: "\e6c6";
+}
+
+.ax-host:before {
+  content: "\e6c7";
+}
+
+.ax-n-nodeabnormal:before {
+  content: "\e6c8";
+}
+
+.ax-n-nodeprocess:before {
+  content: "\e6c9";
+}
+
+.ax-n-nodeprotect:before {
+  content: "\e6ca";
+}
+
+.ax-n-datainterception:before {
+  content: "\e6b0";
+}
+
+.ax-n-persistence:before {
+  content: "\e6b1";
+}
+
+.ax-n-permissionpromotion:before {
+  content: "\e6b2";
+}
+
+.ax-n-credentialAccess:before {
+  content: "\e6b4";
+}
+
+.ax-process:before {
+  content: "\e6b5";
+}
+
+.ax-limitsauthority:before {
+  content: "\e6b6";
+}
+
+.ax-n-commandcontrol:before {
+  content: "\e6b7";
+}
+
+.ax-icon_gongji-IP:before {
+  content: "\e6b8";
+}
+
+.ax-n-memoryoperation:before {
+  content: "\e6b9";
+}
+
+.ax-n-processoperation:before {
+  content: "\e6bb";
+}
+
+.ax-n-intranetdetection:before {
+  content: "\e6bc";
+}
+
+.ax-processbranch:before {
+  content: "\e6bd";
+}
+
+.ax-n-executivecontrol:before {
+  content: "\e6be";
+}
+
+.ax-n-maintenanceauthority:before {
+  content: "\e6bf";
+}
+
+.ax-n-fileimplement:before {
+  content: "\e6c0";
+}
+
+.ax-n-detectionbypass:before {
+  content: "\e6c2";
+}
+
+.ax-n-stealdestroy:before {
+  content: "\e6c3";
+}
+
+.ax-n-networkoperation:before {
+  content: "\e6c4";
+}
+
+.ax-n-attackimplement:before {
+  content: "\e6c5";
+}
+
+.ax-S-yujiancejixian:before {
+  content: "\e6ae";
+}
+
+.ax-S-Aviraxiaohongsan:before {
+  content: "\e6af";
+}
+
+.ax-S-ziyanloudongyinqing:before {
+  content: "\e6a2";
+}
+
+.ax-danger:before {
+  content: "\e69a";
+}
+
+.ax-warning:before {
+  content: "\e69d";
+}
+
+.ax-running:before {
+  content: "\e6ac";
+}
+
+.ax-success:before {
+  content: "\e699";
+}
+
+.ax-info:before {
+  content: "\e69b";
+}
+
+.ax-stop:before {
+  content: "\e6ab";
+}
+
+.ax-allow:before {
+  content: "\e6ad";
+}
+
+.ax-fault:before {
+  content: "\e69c";
+}
+
+.ax-wh-installandupgrade:before {
+  content: "\e693";
+}
+
+.ax-wh-grouping:before {
+  content: "\e698";
+}
+
+.ax-wh-Storageandbackup:before {
+  content: "\e68d";
+}
+
+.ax-wh-notice:before {
+  content: "\e692";
+}
+
+.ax-wh-function:before {
+  content: "\e691";
+}
+
+.ax-wh-jurisdiction:before {
+  content: "\e690";
+}
+
+.ax-icon_weihu-weihu:before {
+  content: "\e6aa";
+}
+
+.ax-wh-basicsecurity:before {
+  content: "\e68f";
+}
+
+.ax-wh-admin:before {
+  content: "\e68e";
+}
+
+.ax-wh-hostbehaviorjournal:before {
+  content: "\e697";
+}
+
+.ax-wh-adminjournal:before {
+  content: "\e694";
+}
+
+.ax-wh-transfer:before {
+  content: "\e695";
+}
+
+.ax-wh-label:before {
+  content: "\e68c";
+}
+
+.ax-batch:before {
+  content: "\e69e";
+}
+
+.ax-engine-hash:before {
+  content: "\e6a5";
+}
+
+.ax-engine-ClamAV:before {
+  content: "\e6a6";
+}
+
+.ax-engine-Webshell:before {
+  content: "\e6a7";
+}
+
+.ax-engine-Yara:before {
+  content: "\e6a8";
+}
+
+.ax-form:before {
+  content: "\e68b";
+}
+
+.ax-add:before {
+  content: "\e670";
+}
+
+.ax-delete:before {
+  content: "\e671";
+}
+
+.ax-record:before {
+  content: "\e672";
+}
+
+.ax-edit:before {
+  content: "\e675";
+}
+
+.ax-relation:before {
+  content: "\e676";
+}
+
+.ax-view-host:before {
+  content: "\e677";
+}
+
+.ax-arrow-right:before {
+  content: "\e678";
+}
+
+.ax-arrow-left:before {
+  content: "\e67a";
+}
+
+.ax-arrow-up:before {
+  content: "\e67b";
+}
+
+.ax-copy:before {
+  content: "\e67c";
+}
+
+.ax-drawer-right:before {
+  content: "\e67d";
+}
+
+.ax-arrow-down:before {
+  content: "\e67e";
+}
+
+.ax-drawer-left:before {
+  content: "\e681";
+}
+
+.ax-update:before {
+  content: "\e682";
+}
+
+.ax-tips:before {
+  content: "\e683";
+}
+
+.ax-more:before {
+  content: "\e684";
+}
+
+.ax-view-property:before {
+  content: "\e685";
+}
+
+.ax-os-Euler:before {
+  content: "\e66e";
+}
+
+.ax-os-Euleroff:before {
+  content: "\e66f";
+}
+
+.ax-os-Debainoff:before {
+  content: "\e657";
+}
+
+.ax-os-CentOsoff:before {
+  content: "\e658";
+}
+
+.ax-os-deepin:before {
+  content: "\e659";
+}
+
+.ax-os-CentOs:before {
+  content: "\e65a";
+}
+
+.ax-os-deepinoff:before {
+  content: "\e65b";
+}
+
+.ax-os-fedoraoff:before {
+  content: "\e65c";
+}
+
+.ax-os-Debain:before {
+  content: "\e65d";
+}
+
+.ax-os-NeoKylin:before {
+  content: "\e65e";
+}
+
+.ax-os-fedora:before {
+  content: "\e65f";
+}
+
+.ax-os-NeoKylinoff:before {
+  content: "\e660";
+}
+
+.ax-os-Suseoff:before {
+  content: "\e661";
+}
+
+.ax-os-RedHat:before {
+  content: "\e662";
+}
+
+.ax-os-Suse:before {
+  content: "\e663";
+}
+
+.ax-os-Linux:before {
+  content: "\e664";
+}
+
+.ax-os-RedHatoff:before {
+  content: "\e665";
+}
+
+.ax-os-Ubuntu:before {
+  content: "\e666";
+}
+
+.ax-os-Linuxoff:before {
+  content: "\e667";
+}
+
+.ax-os-UOSoff:before {
+  content: "\e668";
+}
+
+.ax-os-winoff:before {
+  content: "\e669";
+}
+
+.ax-os-Ubuntuoff:before {
+  content: "\e66a";
+}
+
+.ax-os-UOS:before {
+  content: "\e66b";
+}
+
+.ax-os-RedFlag:before {
+  content: "\e66c";
+}
+
+.ax-os-RedFlagoff:before {
+  content: "\e66d";
+}
+
+.ax-os-win:before {
+  content: "\e656";
+}
+

@@ -1,0 +1,5 @@
+export enum SYNCHRONIZING {
+  EVERYDAY = 1,
+  EVERYWEEK = 2,
+  IMMEDIATELY = 3,
+}

@@ -1,0 +1,72 @@
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .pageHeader {
+    padding: 0 24px 0 0;
+    font-size: @fz12;
+    font-weight: 400;
+    color: rgb(0 0 0 / 85%);
+    justify-content: flex-end;
+
+    .searchIn {
+      width: 220px;
+      border-radius: 8px;
+      // margin: 0 16px;
+    }
+
+    .title {
+      font-size: @fz14;
+      font-weight: 600;
+      color: rgb(0 0 0 / 85%);
+      margin: 0 8px;
+      cursor: pointer;
+    }
+
+    .selectBar {
+      flex: 1;
+      background: rgb(24 186 121 / 10%);
+      border-radius: 4px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 16px;
+    }
+
+    .exportIc {
+      width: 32px;
+      cursor: pointer;
+    }
+  }
+}
+
+.btnBorder {
+  border: 1px solid #eee;
+  margin-right: 15px;
+}
+
+.actived {
+  background: #18ba79;
+  color: #fff !important;
+
+  &:hover {
+    color: #fff !important;
+  }
+}
+
+.markActived {
+  background: #eee;
+  border-radius: 8px;
+}
+.refreshContent {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  .label {
+    width: 150px;
+  }
+}
+.refreshIcon {
+  margin-right: 8px;
+}

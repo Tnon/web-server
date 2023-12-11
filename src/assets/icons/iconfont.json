@@ -1,0 +1,1360 @@
+{
+  "id": "1529856",
+  "name": "Anxinsec-MDPS",
+  "font_family": "axsj",
+  "css_prefix_text": "ax-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "37726148",
+      "name": "资产-Xinetd托管",
+      "font_class": "zc-xinet",
+      "unicode": "e71a",
+      "unicode_decimal": 59162
+    },
+    {
+      "icon_id": "37726147",
+      "name": "资产-API",
+      "font_class": "zc-api",
+      "unicode": "e71b",
+      "unicode_decimal": 59163
+    },
+    {
+      "icon_id": "37726146",
+      "name": "资产-JS文件",
+      "font_class": "zc-jsfile",
+      "unicode": "e71c",
+      "unicode_decimal": 59164
+    },
+    {
+      "icon_id": "37725812",
+      "name": "维护-权限",
+      "font_class": "wh-privileges",
+      "unicode": "e719",
+      "unicode_decimal": 59161
+    },
+    {
+      "icon_id": "37725662",
+      "name": "引擎-RASP",
+      "font_class": "icon_yinqing-RASP",
+      "unicode": "e715",
+      "unicode_decimal": 59157
+    },
+    {
+      "icon_id": "37725661",
+      "name": "引擎-基线检测引擎",
+      "font_class": "icon_yinqing-baseline",
+      "unicode": "e717",
+      "unicode_decimal": 59159
+    },
+    {
+      "icon_id": "37725660",
+      "name": "引擎-风险检测规则",
+      "font_class": "icon_yinqing-riskdetection",
+      "unicode": "e718",
+      "unicode_decimal": 59160
+    },
+    {
+      "icon_id": "36927742",
+      "name": "资产-基础资产",
+      "font_class": "nav-zc-BaseAsset",
+      "unicode": "e70e",
+      "unicode_decimal": 59150
+    },
+    {
+      "icon_id": "36927292",
+      "name": "短信",
+      "font_class": "message",
+      "unicode": "e688",
+      "unicode_decimal": 59016
+    },
+    {
+      "icon_id": "36927291",
+      "name": "邮件",
+      "font_class": "Email",
+      "unicode": "e716",
+      "unicode_decimal": 59158
+    },
+    {
+      "icon_id": "36913661",
+      "name": "配置",
+      "font_class": "configure",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "36913649",
+      "name": "下载",
+      "font_class": "Download",
+      "unicode": "e714",
+      "unicode_decimal": 59156
+    },
+    {
+      "icon_id": "36913653",
+      "name": "转发",
+      "font_class": "Forward",
+      "unicode": "e707",
+      "unicode_decimal": 59143
+    },
+    {
+      "icon_id": "36913651",
+      "name": "导出",
+      "font_class": "Export",
+      "unicode": "e708",
+      "unicode_decimal": 59144
+    },
+    {
+      "icon_id": "36913652",
+      "name": "导入",
+      "font_class": "Import",
+      "unicode": "e70a",
+      "unicode_decimal": 59146
+    },
+    {
+      "icon_id": "36913648",
+      "name": "上传",
+      "font_class": "Upload",
+      "unicode": "e70b",
+      "unicode_decimal": 59147
+    },
+    {
+      "icon_id": "36913295",
+      "name": "策略-诱饵文件",
+      "font_class": "nav-cl-BaitFile",
+      "unicode": "e713",
+      "unicode_decimal": 59155
+    },
+    {
+      "icon_id": "36913296",
+      "name": "策略-虚拟补丁",
+      "font_class": "nav-cl-VirtualPatch",
+      "unicode": "e711",
+      "unicode_decimal": 59153
+    },
+    {
+      "icon_id": "36913294",
+      "name": "策略-安全补丁",
+      "font_class": "nav-cl-SecurityPatch",
+      "unicode": "e712",
+      "unicode_decimal": 59154
+    },
+    {
+      "icon_id": "36898658",
+      "name": "视角",
+      "font_class": "Viewpoint",
+      "unicode": "e710",
+      "unicode_decimal": 59152
+    },
+    {
+      "icon_id": "36897446",
+      "name": "资产-资产漏洞",
+      "font_class": "nav-zc-AssetVulnerability",
+      "unicode": "e70d",
+      "unicode_decimal": 59149
+    },
+    {
+      "icon_id": "36897448",
+      "name": "资产-风险资产",
+      "font_class": "nav-zc-RiskAsset",
+      "unicode": "e70f",
+      "unicode_decimal": 59151
+    },
+    {
+      "icon_id": "36892525",
+      "name": "关闭",
+      "font_class": "close",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "36881841",
+      "name": "筛选",
+      "font_class": "Filters",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "36881842",
+      "name": "搜索",
+      "font_class": "Search",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "36881625",
+      "name": "设置",
+      "font_class": "Setting",
+      "unicode": "e70c",
+      "unicode_decimal": 59148
+    },
+    {
+      "icon_id": "36830948",
+      "name": "授权",
+      "font_class": "authorization",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "35279965",
+      "name": "引擎-虚拟补丁规则引擎",
+      "font_class": "icon_yinqing-C-xunibudingguizeyinqing",
+      "unicode": "e705",
+      "unicode_decimal": 59141
+    },
+    {
+      "icon_id": "35279966",
+      "name": "引擎-安全补丁引擎",
+      "font_class": "icon_yinqing-S-anquanbudingyinqing",
+      "unicode": "e706",
+      "unicode_decimal": 59142
+    },
+    {
+      "icon_id": "34785817",
+      "name": "风险-弱口令-应用",
+      "font_class": "fx-weakpassword-app",
+      "unicode": "e702",
+      "unicode_decimal": 59138
+    },
+    {
+      "icon_id": "34785818",
+      "name": "风险-弱口令-系统",
+      "font_class": "fx-weakpassword-os",
+      "unicode": "e704",
+      "unicode_decimal": 59140
+    },
+    {
+      "icon_id": "34785500",
+      "name": "维护-统一管理",
+      "font_class": "wh-changeOS",
+      "unicode": "e701",
+      "unicode_decimal": 59137
+    },
+    {
+      "icon_id": "34371965",
+      "name": "系统切换",
+      "font_class": "changeOS",
+      "unicode": "e6ff",
+      "unicode_decimal": 59135
+    },
+    {
+      "icon_id": "34371654",
+      "name": "文件保护-防护文件",
+      "font_class": "cl-wjbh-protectfile",
+      "unicode": "e6f5",
+      "unicode_decimal": 59125
+    },
+    {
+      "icon_id": "34371562",
+      "name": "文件保护-监控规则",
+      "font_class": "cl-wjbh-monitorrules",
+      "unicode": "e6f8",
+      "unicode_decimal": 59128
+    },
+    {
+      "icon_id": "34371563",
+      "name": "文件保护-监控文件",
+      "font_class": "cl-wjbh-Monitorfile",
+      "unicode": "e6fa",
+      "unicode_decimal": 59130
+    },
+    {
+      "icon_id": "34371564",
+      "name": "文件保护-监控主机",
+      "font_class": "cl-wjbh-monitorhost",
+      "unicode": "e6fc",
+      "unicode_decimal": 59132
+    },
+    {
+      "icon_id": "34371475",
+      "name": "主导航-加固",
+      "font_class": "Mnav-reinforce",
+      "unicode": "e6f4",
+      "unicode_decimal": 59124
+    },
+    {
+      "icon_id": "34371476",
+      "name": "主导航-策略",
+      "font_class": "Mnav-policy",
+      "unicode": "e6a3",
+      "unicode_decimal": 59043
+    },
+    {
+      "icon_id": "34371477",
+      "name": "面-主导航-维护",
+      "font_class": "Mnav-maintain-S",
+      "unicode": "e6f6",
+      "unicode_decimal": 59126
+    },
+    {
+      "icon_id": "34371478",
+      "name": "面-主导航-加固",
+      "font_class": "Mnav-reinforce-S",
+      "unicode": "e6f7",
+      "unicode_decimal": 59127
+    },
+    {
+      "icon_id": "34371479",
+      "name": "主导航-日志",
+      "font_class": "Mnav-journal",
+      "unicode": "e69f",
+      "unicode_decimal": 59039
+    },
+    {
+      "icon_id": "34371480",
+      "name": "面-主导航-策略",
+      "font_class": "Mnav-policy-S",
+      "unicode": "e6f9",
+      "unicode_decimal": 59129
+    },
+    {
+      "icon_id": "34371481",
+      "name": "主导航-总览",
+      "font_class": "Mnav-dashboard",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    },
+    {
+      "icon_id": "34371482",
+      "name": "面-主导航-报告",
+      "font_class": "Mnav-journal-S",
+      "unicode": "e6fb",
+      "unicode_decimal": 59131
+    },
+    {
+      "icon_id": "34371483",
+      "name": "主导航-攻击",
+      "font_class": "Mnav-attack",
+      "unicode": "e6a0",
+      "unicode_decimal": 59040
+    },
+    {
+      "icon_id": "34371484",
+      "name": "面-主导航-告警",
+      "font_class": "Mnav-risk-S",
+      "unicode": "e6fd",
+      "unicode_decimal": 59133
+    },
+    {
+      "icon_id": "34371485",
+      "name": "面-主导航-事件",
+      "font_class": "Mnav-attack-S",
+      "unicode": "e6fe",
+      "unicode_decimal": 59134
+    },
+    {
+      "icon_id": "34371486",
+      "name": "主导航-资产",
+      "font_class": "Mnav-property",
+      "unicode": "e6b3",
+      "unicode_decimal": 59059
+    },
+    {
+      "icon_id": "34371487",
+      "name": "面-主导航-总览",
+      "font_class": "Mnav-dashboard-S",
+      "unicode": "e700",
+      "unicode_decimal": 59136
+    },
+    {
+      "icon_id": "34371488",
+      "name": "主导航-风险",
+      "font_class": "Mnav-risk",
+      "unicode": "e6a4",
+      "unicode_decimal": 59044
+    },
+    {
+      "icon_id": "34371489",
+      "name": "主导航-维护",
+      "font_class": "Mnav-maintain",
+      "unicode": "e6a1",
+      "unicode_decimal": 59041
+    },
+    {
+      "icon_id": "34371490",
+      "name": "面-主导航-资产",
+      "font_class": "Mnav-property-S",
+      "unicode": "e703",
+      "unicode_decimal": 59139
+    },
+    {
+      "icon_id": "34348710",
+      "name": "导航-策略-文件保护",
+      "font_class": "nav-cl-fileprotect",
+      "unicode": "e6f2",
+      "unicode_decimal": 59122
+    },
+    {
+      "icon_id": "34348711",
+      "name": "导航-策略-基线检查",
+      "font_class": "nav-cl-baseline",
+      "unicode": "e6f3",
+      "unicode_decimal": 59123
+    },
+    {
+      "icon_id": "34342039",
+      "name": "引擎RASP",
+      "font_class": "C-RASP",
+      "unicode": "e6f1",
+      "unicode_decimal": 59121
+    },
+    {
+      "icon_id": "34046787",
+      "name": "维护-Syslog",
+      "font_class": "wh-syslog",
+      "unicode": "e6c1",
+      "unicode_decimal": 59073
+    },
+    {
+      "icon_id": "33887331",
+      "name": "导航-白名单",
+      "font_class": "nav-whitelist",
+      "unicode": "e6ed",
+      "unicode_decimal": 59117
+    },
+    {
+      "icon_id": "33887333",
+      "name": "导航-拦截名单",
+      "font_class": "nav-blockinglist",
+      "unicode": "e6ee",
+      "unicode_decimal": 59118
+    },
+    {
+      "icon_id": "33887334",
+      "name": "导航-资产清点策略",
+      "font_class": "nav-assetspolicy",
+      "unicode": "e6ef",
+      "unicode_decimal": 59119
+    },
+    {
+      "icon_id": "33887394",
+      "name": "导航-安全防护策略",
+      "font_class": "nav-securitypolicy",
+      "unicode": "e6f0",
+      "unicode_decimal": 59120
+    },
+    {
+      "icon_id": "33872255",
+      "name": "风险-弱口令",
+      "font_class": "weakpassword",
+      "unicode": "e6d0",
+      "unicode_decimal": 59088
+    },
+    {
+      "icon_id": "33872256",
+      "name": "资产-系统应用",
+      "font_class": "applications",
+      "unicode": "e6cd",
+      "unicode_decimal": 59085
+    },
+    {
+      "icon_id": "33871285",
+      "name": "风险-漏洞-内核",
+      "font_class": "icon_fengxian-loudong-neihe",
+      "unicode": "e6ea",
+      "unicode_decimal": 59114
+    },
+    {
+      "icon_id": "33871287",
+      "name": "风险-漏洞-系统",
+      "font_class": "icon_fengxian-loudong-xitong",
+      "unicode": "e6eb",
+      "unicode_decimal": 59115
+    },
+    {
+      "icon_id": "33871288",
+      "name": "风险-漏洞-Web",
+      "font_class": "icon_fengxian-loudong-Web",
+      "unicode": "e6ec",
+      "unicode_decimal": 59116
+    },
+    {
+      "icon_id": "33870796",
+      "name": "资产-计划任务",
+      "font_class": "zc-task",
+      "unicode": "e6e1",
+      "unicode_decimal": 59105
+    },
+    {
+      "icon_id": "33870797",
+      "name": "资产-Web服务",
+      "font_class": "zc-webserver",
+      "unicode": "e6e2",
+      "unicode_decimal": 59106
+    },
+    {
+      "icon_id": "33870798",
+      "name": "资产-安装包-Jar",
+      "font_class": "zc-jarpackage",
+      "unicode": "e6e3",
+      "unicode_decimal": 59107
+    },
+    {
+      "icon_id": "33870799",
+      "name": "资产-安装包-Npm",
+      "font_class": "zc-npmpackage",
+      "unicode": "e6e4",
+      "unicode_decimal": 59108
+    },
+    {
+      "icon_id": "33870800",
+      "name": "资产-安装包-系统",
+      "font_class": "zc-ospackage",
+      "unicode": "e6e5",
+      "unicode_decimal": 59109
+    },
+    {
+      "icon_id": "33870801",
+      "name": "资产-安装包-python",
+      "font_class": "zc-pythonpackage",
+      "unicode": "e6e6",
+      "unicode_decimal": 59110
+    },
+    {
+      "icon_id": "33870802",
+      "name": "资产-Web框架",
+      "font_class": "zc-webframework",
+      "unicode": "e6e7",
+      "unicode_decimal": 59111
+    },
+    {
+      "icon_id": "33870803",
+      "name": "资产-Web站点",
+      "font_class": "zc-webside",
+      "unicode": "e6e8",
+      "unicode_decimal": 59112
+    },
+    {
+      "icon_id": "33870804",
+      "name": "资产-Web应用",
+      "font_class": "zc-webapplication",
+      "unicode": "e6e9",
+      "unicode_decimal": 59113
+    },
+    {
+      "icon_id": "33866278",
+      "name": "报告-邮件报告",
+      "font_class": "reportemail",
+      "unicode": "e6df",
+      "unicode_decimal": 59103
+    },
+    {
+      "icon_id": "33866279",
+      "name": "报告-文档报告",
+      "font_class": "reportword",
+      "unicode": "e6e0",
+      "unicode_decimal": 59104
+    },
+    {
+      "icon_id": "33864756",
+      "name": "成员-安全管理员",
+      "font_class": "securityadmin",
+      "unicode": "e6da",
+      "unicode_decimal": 59098
+    },
+    {
+      "icon_id": "33864757",
+      "name": "成员-超级管理员",
+      "font_class": "vipadmin",
+      "unicode": "e6db",
+      "unicode_decimal": 59099
+    },
+    {
+      "icon_id": "33864758",
+      "name": "成员-运维管理员",
+      "font_class": "oamadmin",
+      "unicode": "e6dc",
+      "unicode_decimal": 59100
+    },
+    {
+      "icon_id": "33864759",
+      "name": "成员-审计管理员",
+      "font_class": "auditadmin",
+      "unicode": "e6dd",
+      "unicode_decimal": 59101
+    },
+    {
+      "icon_id": "33864760",
+      "name": "成员-系统管理员",
+      "font_class": "osadmin",
+      "unicode": "e6de",
+      "unicode_decimal": 59102
+    },
+    {
+      "icon_id": "32623127",
+      "name": "业务组",
+      "font_class": "icon_weihu-yewuzu",
+      "unicode": "e6d9",
+      "unicode_decimal": 59097
+    },
+    {
+      "icon_id": "32619417",
+      "name": "引擎ACDR",
+      "font_class": "S-ACDR",
+      "unicode": "e6d8",
+      "unicode_decimal": 59096
+    },
+    {
+      "icon_id": "32430590",
+      "name": "拓展",
+      "font_class": "extend",
+      "unicode": "e6d7",
+      "unicode_decimal": 59095
+    },
+    {
+      "icon_id": "32430586",
+      "name": "防护",
+      "font_class": "Protection",
+      "unicode": "e6d6",
+      "unicode_decimal": 59094
+    },
+    {
+      "icon_id": "32430559",
+      "name": "安装包",
+      "font_class": "installpackage",
+      "unicode": "e6cb",
+      "unicode_decimal": 59083
+    },
+    {
+      "icon_id": "32430560",
+      "name": "漏洞",
+      "font_class": "vulnerability",
+      "unicode": "e6cc",
+      "unicode_decimal": 59084
+    },
+    {
+      "icon_id": "32430562",
+      "name": "账户",
+      "font_class": "user",
+      "unicode": "e6ce",
+      "unicode_decimal": 59086
+    },
+    {
+      "icon_id": "32430563",
+      "name": "共享文件夹",
+      "font_class": "sharefolder",
+      "unicode": "e6cf",
+      "unicode_decimal": 59087
+    },
+    {
+      "icon_id": "32430565",
+      "name": "Web",
+      "font_class": "web",
+      "unicode": "e6d1",
+      "unicode_decimal": 59089
+    },
+    {
+      "icon_id": "32430566",
+      "name": "端口",
+      "font_class": "port",
+      "unicode": "e6d2",
+      "unicode_decimal": 59090
+    },
+    {
+      "icon_id": "32430567",
+      "name": "内核",
+      "font_class": "kernel",
+      "unicode": "e6d3",
+      "unicode_decimal": 59091
+    },
+    {
+      "icon_id": "32430568",
+      "name": "环境变量",
+      "font_class": "environmentvariable",
+      "unicode": "e6d4",
+      "unicode_decimal": 59092
+    },
+    {
+      "icon_id": "32430569",
+      "name": "启动服务",
+      "font_class": "runningservice",
+      "unicode": "e6d5",
+      "unicode_decimal": 59093
+    },
+    {
+      "icon_id": "32083013",
+      "name": "进程注入",
+      "font_class": "processinjection",
+      "unicode": "e6ba",
+      "unicode_decimal": 59066
+    },
+    {
+      "icon_id": "32051755",
+      "name": "节点读取中",
+      "font_class": "n-nodeloading",
+      "unicode": "e6c6",
+      "unicode_decimal": 59078
+    },
+    {
+      "icon_id": "32051756",
+      "name": "主机",
+      "font_class": "host",
+      "unicode": "e6c7",
+      "unicode_decimal": 59079
+    },
+    {
+      "icon_id": "32038290",
+      "name": "节点读取失败",
+      "font_class": "n-nodeabnormal",
+      "unicode": "e6c8",
+      "unicode_decimal": 59080
+    },
+    {
+      "icon_id": "32038291",
+      "name": "节点进程",
+      "font_class": "n-nodeprocess",
+      "unicode": "e6c9",
+      "unicode_decimal": 59081
+    },
+    {
+      "icon_id": "32038292",
+      "name": "节点防护",
+      "font_class": "n-nodeprotect",
+      "unicode": "e6ca",
+      "unicode_decimal": 59082
+    },
+    {
+      "icon_id": "32036752",
+      "name": "NGAV-数据窃取",
+      "font_class": "n-datainterception",
+      "unicode": "e6b0",
+      "unicode_decimal": 59056
+    },
+    {
+      "icon_id": "32036753",
+      "name": "NGAV-持久化",
+      "font_class": "n-persistence",
+      "unicode": "e6b1",
+      "unicode_decimal": 59057
+    },
+    {
+      "icon_id": "32036754",
+      "name": "NGAV-权限提升",
+      "font_class": "n-permissionpromotion",
+      "unicode": "e6b2",
+      "unicode_decimal": 59058
+    },
+    {
+      "icon_id": "32036755",
+      "name": "NGAV-凭证访问",
+      "font_class": "n-credentialAccess",
+      "unicode": "e6b4",
+      "unicode_decimal": 59060
+    },
+    {
+      "icon_id": "32036756",
+      "name": "进程",
+      "font_class": "process",
+      "unicode": "e6b5",
+      "unicode_decimal": 59061
+    },
+    {
+      "icon_id": "32036758",
+      "name": "NGAV-权限获取",
+      "font_class": "limitsauthority",
+      "unicode": "e6b6",
+      "unicode_decimal": 59062
+    },
+    {
+      "icon_id": "32036759",
+      "name": "NGAV-命令控制",
+      "font_class": "n-commandcontrol",
+      "unicode": "e6b7",
+      "unicode_decimal": 59063
+    },
+    {
+      "icon_id": "32036760",
+      "name": "IP",
+      "font_class": "icon_gongji-IP",
+      "unicode": "e6b8",
+      "unicode_decimal": 59064
+    },
+    {
+      "icon_id": "32036761",
+      "name": "NGAV-内存操作",
+      "font_class": "n-memoryoperation",
+      "unicode": "e6b9",
+      "unicode_decimal": 59065
+    },
+    {
+      "icon_id": "32036763",
+      "name": "NGAV-进程操作",
+      "font_class": "n-processoperation",
+      "unicode": "e6bb",
+      "unicode_decimal": 59067
+    },
+    {
+      "icon_id": "32036764",
+      "name": "NGAV-内网探测",
+      "font_class": "n-intranetdetection",
+      "unicode": "e6bc",
+      "unicode_decimal": 59068
+    },
+    {
+      "icon_id": "32036765",
+      "name": "进程分叉",
+      "font_class": "processbranch",
+      "unicode": "e6bd",
+      "unicode_decimal": 59069
+    },
+    {
+      "icon_id": "32036766",
+      "name": "NGAV-控制执行",
+      "font_class": "n-executivecontrol",
+      "unicode": "e6be",
+      "unicode_decimal": 59070
+    },
+    {
+      "icon_id": "32036767",
+      "name": "NGAV-权限维持",
+      "font_class": "n-maintenanceauthority",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    },
+    {
+      "icon_id": "32036768",
+      "name": "NGAV-文件操作",
+      "font_class": "n-fileimplement",
+      "unicode": "e6c0",
+      "unicode_decimal": 59072
+    },
+    {
+      "icon_id": "32036769",
+      "name": "NGAV-检测绕过",
+      "font_class": "n-detectionbypass",
+      "unicode": "e6c2",
+      "unicode_decimal": 59074
+    },
+    {
+      "icon_id": "32036770",
+      "name": "NGAV-窃取破坏",
+      "font_class": "n-stealdestroy",
+      "unicode": "e6c3",
+      "unicode_decimal": 59075
+    },
+    {
+      "icon_id": "32036771",
+      "name": "NGAV-网络操作",
+      "font_class": "n-networkoperation",
+      "unicode": "e6c4",
+      "unicode_decimal": 59076
+    },
+    {
+      "icon_id": "32036772",
+      "name": "NGAV-攻击执行",
+      "font_class": "n-attackimplement",
+      "unicode": "e6c5",
+      "unicode_decimal": 59077
+    },
+    {
+      "icon_id": "31206112",
+      "name": "库预检测基线",
+      "font_class": "S-yujiancejixian",
+      "unicode": "e6ae",
+      "unicode_decimal": 59054
+    },
+    {
+      "icon_id": "31206113",
+      "name": "引擎Avira小红伞",
+      "font_class": "S-Aviraxiaohongsan",
+      "unicode": "e6af",
+      "unicode_decimal": 59055
+    },
+    {
+      "icon_id": "31205765",
+      "name": "引擎漏洞",
+      "font_class": "S-ziyanloudongyinqing",
+      "unicode": "e6a2",
+      "unicode_decimal": 59042
+    },
+    {
+      "icon_id": "30704862",
+      "name": "状态-危险",
+      "font_class": "danger",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
+      "icon_id": "30704863",
+      "name": "状态-告警",
+      "font_class": "warning",
+      "unicode": "e69d",
+      "unicode_decimal": 59037
+    },
+    {
+      "icon_id": "30704864",
+      "name": "状态-运行",
+      "font_class": "running",
+      "unicode": "e6ac",
+      "unicode_decimal": 59052
+    },
+    {
+      "icon_id": "30704865",
+      "name": "状态-成功",
+      "font_class": "success",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "30704866",
+      "name": "状态-信息",
+      "font_class": "info",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "30704867",
+      "name": "状态-暂停",
+      "font_class": "stop",
+      "unicode": "e6ab",
+      "unicode_decimal": 59051
+    },
+    {
+      "icon_id": "30704868",
+      "name": "状态-正常",
+      "font_class": "allow",
+      "unicode": "e6ad",
+      "unicode_decimal": 59053
+    },
+    {
+      "icon_id": "30704869",
+      "name": "状态-错误",
+      "font_class": "fault",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
+    },
+    {
+      "icon_id": "30704879",
+      "name": "维护-安装与升级",
+      "font_class": "wh-installandupgrade",
+      "unicode": "e693",
+      "unicode_decimal": 59027
+    },
+    {
+      "icon_id": "30704880",
+      "name": "维护-分组",
+      "font_class": "wh-grouping",
+      "unicode": "e698",
+      "unicode_decimal": 59032
+    },
+    {
+      "icon_id": "30704881",
+      "name": "维护-存储与备份",
+      "font_class": "wh-Storageandbackup",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "30704882",
+      "name": "维护-通知",
+      "font_class": "wh-notice",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "30704884",
+      "name": "维护-运行",
+      "font_class": "wh-function",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "30704885",
+      "name": "维护-权限",
+      "font_class": "wh-jurisdiction",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    },
+    {
+      "icon_id": "30704886",
+      "name": "维护-维护",
+      "font_class": "icon_weihu-weihu",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    },
+    {
+      "icon_id": "30704887",
+      "name": "维护-基础防护",
+      "font_class": "wh-basicsecurity",
+      "unicode": "e68f",
+      "unicode_decimal": 59023
+    },
+    {
+      "icon_id": "30704888",
+      "name": "维护-成员",
+      "font_class": "wh-admin",
+      "unicode": "e68e",
+      "unicode_decimal": 59022
+    },
+    {
+      "icon_id": "30704889",
+      "name": "维护-主机行为日志",
+      "font_class": "wh-hostbehaviorjournal",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    },
+    {
+      "icon_id": "30704890",
+      "name": "维护-成员日志",
+      "font_class": "wh-adminjournal",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "30704891",
+      "name": "维护-迁移",
+      "font_class": "wh-transfer",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    },
+    {
+      "icon_id": "30704892",
+      "name": "维护-标签",
+      "font_class": "wh-label",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "30705046",
+      "name": "批量",
+      "font_class": "batch",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "30588924",
+      "name": "引擎哈希",
+      "font_class": "engine-hash",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    },
+    {
+      "icon_id": "30588925",
+      "name": "引擎ClamAV",
+      "font_class": "engine-ClamAV",
+      "unicode": "e6a6",
+      "unicode_decimal": 59046
+    },
+    {
+      "icon_id": "30588926",
+      "name": "引擎Webshell",
+      "font_class": "engine-Webshell",
+      "unicode": "e6a7",
+      "unicode_decimal": 59047
+    },
+    {
+      "icon_id": "30588927",
+      "name": "引擎Yara",
+      "font_class": "engine-Yara",
+      "unicode": "e6a8",
+      "unicode_decimal": 59048
+    },
+    {
+      "icon_id": "24092210",
+      "name": "表格",
+      "font_class": "form",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "23560043",
+      "name": "添加",
+      "font_class": "add",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "23560044",
+      "name": "删除",
+      "font_class": "delete",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "23560045",
+      "name": "记录",
+      "font_class": "record",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "23560048",
+      "name": "修改",
+      "font_class": "edit",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "23560049",
+      "name": "关联",
+      "font_class": "relation",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "23560050",
+      "name": "视图-主机",
+      "font_class": "view-host",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "23560051",
+      "name": "向右",
+      "font_class": "arrow-right",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "23560053",
+      "name": "向左",
+      "font_class": "arrow-left",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "23560054",
+      "name": "向上",
+      "font_class": "arrow-up",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "23560055",
+      "name": "复制",
+      "font_class": "copy",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "23560056",
+      "name": "右收",
+      "font_class": "drawer-right",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "23560057",
+      "name": "向下",
+      "font_class": "arrow-down",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    },
+    {
+      "icon_id": "23560060",
+      "name": "左收",
+      "font_class": "drawer-left",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    },
+    {
+      "icon_id": "23560061",
+      "name": "刷新",
+      "font_class": "update",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "23560062",
+      "name": "提示",
+      "font_class": "tips",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "23560063",
+      "name": "更多",
+      "font_class": "more",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    },
+    {
+      "icon_id": "23560064",
+      "name": "视图-资产",
+      "font_class": "view-property",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "23560039",
+      "name": "iconSysLogo_OPenEurer",
+      "font_class": "os-Euler",
+      "unicode": "e66e",
+      "unicode_decimal": 58990
+    },
+    {
+      "icon_id": "23560040",
+      "name": "Euler-off",
+      "font_class": "os-Euleroff",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "19306907",
+      "name": "iconfont-OSLogoai_Debainoff",
+      "font_class": "os-Debainoff",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "19306908",
+      "name": "iconfont-OSLogoai_CentOsoff",
+      "font_class": "os-CentOsoff",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "19306909",
+      "name": "iconfont-OSLogoai_deepin",
+      "font_class": "os-deepin",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "19306910",
+      "name": "OSLogoai_CentOs",
+      "font_class": "os-CentOs",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "19306911",
+      "name": "iconfont-OSLogoai_deepinoff",
+      "font_class": "os-deepinoff",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "19306912",
+      "name": "iconfont-OSLogoai_Lfedoraoff",
+      "font_class": "os-fedoraoff",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "19306913",
+      "name": "iconfont-OSLogoai_Debain",
+      "font_class": "os-Debain",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "19306914",
+      "name": "iconfont-OSLogoai_NeoKylin",
+      "font_class": "os-NeoKylin",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "19306915",
+      "name": "iconfont-OSLogoai_fedora",
+      "font_class": "os-fedora",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "19306916",
+      "name": "iconfont-OSLogoai_NeoKylinoff",
+      "font_class": "os-NeoKylinoff",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "19306917",
+      "name": "iconfont-OSLogoai_Suseoff",
+      "font_class": "os-Suseoff",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "19306918",
+      "name": "iconfont-OSLogoai_RedHat",
+      "font_class": "os-RedHat",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "19306919",
+      "name": "iconfont-OSLogoai_Suse",
+      "font_class": "os-Suse",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "19306920",
+      "name": "iconfont-OSLogoai_Linux",
+      "font_class": "os-Linux",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "19306921",
+      "name": "iconfont-OSLogoai_RedHatoff",
+      "font_class": "os-RedHatoff",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "19306922",
+      "name": "iconfont-OSLogoai_Ubuntu",
+      "font_class": "os-Ubuntu",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "19306923",
+      "name": "iconfont-OSLogoai_Linuxoff",
+      "font_class": "os-Linuxoff",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "19306924",
+      "name": "iconfont-OSLogoai_UOSoff",
+      "font_class": "os-UOSoff",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "19306925",
+      "name": "iconfont-OSLogoai_winoff",
+      "font_class": "os-winoff",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "19306926",
+      "name": "iconfont-OSLogoai_Ubuntuoff",
+      "font_class": "os-Ubuntuoff",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "19306927",
+      "name": "iconfont-OSLogoai_UOS",
+      "font_class": "os-UOS",
+      "unicode": "e66b",
+      "unicode_decimal": 58987
+    },
+    {
+      "icon_id": "19306928",
+      "name": "iconfont-OSLogoai_RedFlag",
+      "font_class": "os-RedFlag",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "19306929",
+      "name": "iconfont-OSLogoai_RedFlagoff",
+      "font_class": "os-RedFlagoff",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "19306905",
+      "name": "iconfont-OSLogoai_win",
+      "font_class": "os-win",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    }
+  ]
+}

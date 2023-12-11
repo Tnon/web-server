@@ -1,0 +1,105 @@
+.header {
+  background: #fff;
+  border-radius: 8px;
+
+  .title {
+    height: 80px;
+    margin: 0 24px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+
+    .back {
+      width: 32px;
+      height: 32px;
+      line-height: 32px;
+    }
+
+    img {
+      width: 48px;
+      height: 48px;
+      margin: 0 8px;
+    }
+
+    .riOp {
+      flex: 1;
+      margin-left: 8px;
+
+      .riRow {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .ip {
+          font-size: @fz18;
+          font-weight: 600;
+          color: rgb(0 0 0 / 85%);
+        }
+
+        .isOnline {
+          font-size: @fz12;
+          font-weight: 400;
+        }
+
+        .offline {
+          color: rgb(0 0 0 / 45%);
+        }
+
+        .online {
+          color: #18ba79;
+        }
+
+        .host_time {
+          font-size: @fz12;
+          font-weight: 400;
+          color: rgb(0 0 0 / 85%);
+        }
+      }
+    }
+  }
+
+  .topMenu {
+    height: 56px !important;
+    margin: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .assTopMenu {
+      border: none;
+      line-height: unset;
+      flex: 1;
+      ::v-deep(.ant-menu-item) {
+        padding: 6px 15px !important;
+        margin: 0 2px !important;
+        border-radius: 7px;
+        font-size: @fz12;
+        font-weight: 400;
+        color: rgb(0 0 0 / 60%);
+        line-height: 20px;
+
+        &::after {
+          display: none;
+        }
+
+        &:hover {
+          background: #eee;
+        }
+      }
+
+      ::v-deep(.ant-menu-item-selected) {
+        background: #eee;
+        font-size: @fz12;
+        font-weight: 600;
+        color: #000;
+      }
+    }
+    .loadingText {
+      font-weight: 600;
+      margin-left: 10px;
+    }
+    .timeText {
+      margin-right: 20px;
+    }
+  }
+}
